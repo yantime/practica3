@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+
+    text-align: center;
+  
+    margin-top: 1px;
+    
+}
+
+p {
+    color: white;
+}
+
+
+
+.header {
+
+    background-image: url("../img/imagen.png");
+
+    width: 960px;
+    height: 500px;
+   
+
+}
+
+.name {
+
+    background-color: #7299FE80;
+    width: 350px;
+    height: 100px; 
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.saludo {
+    font-size:36px;
+    color: white;
+    
+}
+
+.about_section {
+
+    background-color: #7299FE ;
+
+    width: 960px;
+    height: 525px;
+
+    padding-top: 40px;
+    
+    
+
+}
+
+.about_section h2 {
+
+    
+    color: #1D06A7;
+
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.about_section p {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+
+    line-height: 24px;
+    
+}
+
+
+.about_section .cv {
+
+    background-color: #D16FFF ;
+
+    font-size: 26px;
+    color: #FFFFFF;
+
+    width: 180px;
+    height: 60px;
+    margin-left: 20px;
+
+    border-radius: 10px;
+    margin-top: 30px;
+
+
+}
+
+
+.skill_section {
+
+
+    background-color: #9022FF;
+    width: 960px;
+    height: 424px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.skill_left h3 {
+
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-top: 25px;
+
+}
+
+
+.skill_right h3 {
+
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.skill_section h2 {
+
+    color: #26CC4B;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.skill_group {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra {
+
+    width: 403px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 14px;
+
+    margin-left: 14px;
+}
+
+.color {
+
+    width: 50%;
+    height: 100%;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+
+.skill_right h3 {
+
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-top: 25px;
+
+}
+
+
+/* PORTAFOLIO */
+
+.portafolio {
+
+    background-color: #FFD233;
+    width: 960px;
+    height: 424px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.portafolio h3 {
+
+    color: #00AD84;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 46px;
+
+}
+
+.portafolio img {
+
+    width: 150px;
+    height: 100px;
+}
+
+
+.img_arriba {
+
+    text-align: center;
+}
+
+.img_abajo {
+    text-align: center;
+    
+}
+
+
+/* Clientes */
+
+.clientes {
+    background-color: #3F4E62;
+    width: 960px;
+    height: 258px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+
+.clientes h3 {
+
+    color: #ADFF28;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+
+}
+
+
+.clientes_imagenes {
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.clientes_imagenes img {
+    
+
+    width: 194px;
+    height: 67px;
+    margin-left: 20px;
+    
+}
+
+
+.contacto {
+
+    background-color: #1687A0;
+    width: 960px;
+    height: 578px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+}
+
+.contacto h3 {
+
+    color: #FF1B1B;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 27px;
+    
+}
+
+.formulario_primera {
+
+    display: flex;
+    justify-content: center;
+    column-gap: 33px;
+    margin-bottom: 36px;
+}
+
+.formulario_segunda {
+
+    display: flex;
+    justify-content: center;
+    column-gap: 33px;
+    margin-bottom: 36px;
+}
+
+.formulario_primera input {
+    font-size: 18px;
+    width: 363px;
+    height: 59px;
+    
+
+}
+
+.formulario_segunda input {
+    font-size: 18px;
+    width: 363px;
+    height: 59px;
+
+}
+
+.formulario_tercera {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+textarea {
+    
+    width: 759px;
+    height: 112px;
+}
+
+
+
+.boton_enviar {
+    background-color:#233451;
+    width: 167px;
+    height: 56px;
+    color: #fff;
+    font-size:20px;
+    margin-top: 40px;
+}
